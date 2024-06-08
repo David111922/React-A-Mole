@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
-import moleImg from './images/mole.png'; // Adjust the path as needed
+import moleImg from './images/mole (1).png'; // Adjust the path as needed
+ 
+function Mole({setScore}) {
 
-function Mole({ setScore }) {
+  console.log('moleContainer setScore:', typeof setScore);
   useEffect(() => {
     let randSeconds = Math.ceil(Math.random() * 1000);
     let timer = setTimeout(() => {
