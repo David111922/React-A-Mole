@@ -11,7 +11,7 @@ function EmptySlot() {
 
   return (
     <div>
-      <img src="/react_a-mole/src/images/molehill (1).png" alt="Empty Slot" />
+      <img src="/empty.png" alt="Empty Slot" />
     </div>
   );
 }
